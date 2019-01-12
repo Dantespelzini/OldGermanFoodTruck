@@ -1,9 +1,14 @@
+body{
+    background-color:black;
+    border-color: white solid 1px
+}
 .navbar #logo{
     width: 170px;
     height: 100px;
 }
 .navbar{
     background-color:black;
+    height: 16vh;
 }
 .navbar-dark .navbar-nav .nav-link{
     color:rgb(184, 183, 183);
@@ -12,4 +17,16 @@
 }
 .navbar-dark .navbar-nav .nav-link:hover{
     color:white;
+}
+.carousel-inner img{
+    height: 100vh;
+}
+@media only screen and (max-width:600px){
+    .carousel-inner img{
+        height: 46vh;
+    }
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
 }
