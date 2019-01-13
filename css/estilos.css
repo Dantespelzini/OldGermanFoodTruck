@@ -1,14 +1,18 @@
+/* All */
 body{
     background-color:black;
-    border-color: white solid 1px
 }
+
+/* Navbar */
 .navbar #logo{
     width: 170px;
-    height: 100px;
+    height: 90px;
+    position: sticky;
 }
 .navbar{
     background-color:black;
     height: 16vh;
+    border-bottom: 2px solid white;
 }
 .navbar-dark .navbar-nav .nav-link{
     color:rgb(184, 183, 183);
@@ -18,14 +22,23 @@ body{
 .navbar-dark .navbar-nav .nav-link:hover{
     color:white;
 }
+
+/* Galeria */
+@media only screen and (min-width:1000px){
+    #galeria{
+        border: 2px solid white;
+    }
+}
 .carousel-inner img{
     height: 100vh;
 }
-@media only screen and (max-width:600px){
+@media only screen and (max-width:800px){
     .carousel-inner img{
         height: 46vh;
     }
 }
+
+/* Footer */
 footer{
     display: flex;
     flex-wrap: wrap;
