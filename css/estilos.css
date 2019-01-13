@@ -1,8 +1,15 @@
 /* All */
 body{
     background-color:black;
+    font-family: 'Times New Roman', Times, serif;
 }
-
+h2{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 /* Navbar */
 .navbar #logo{
     width: 170px;
@@ -12,12 +19,11 @@ body{
 .navbar{
     background-color:black;
     height: 16vh;
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid white;
 }
 .navbar-dark .navbar-nav .nav-link{
     color:rgb(184, 183, 183);
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
 }
 .navbar-dark .navbar-nav .nav-link:hover{
     color:white;
@@ -36,6 +42,16 @@ body{
     .carousel-inner img{
         height: 46vh;
     }
+}
+/* Menu */
+#menu .card{
+    background:black;
+    color: white;
+    border: 1px solid white;
+}
+#menu img{
+    height: 300px;
+    border-bottom: 1px solid white;
 }
 
 /* Footer */
