@@ -51,10 +51,8 @@ h5{
 }
 
 /* Galeria */
-@media only screen and (min-width:1000px){
-    #galeria{
-        border: 2px solid white;
-    }
+#galeria{
+    border: 1px solid white;
 }
 .carousel-inner img{
     height: 100vh;
