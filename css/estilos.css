@@ -18,6 +18,54 @@ h5{
 .navbar #logo{
     width: 170px;
 }
+.navbar{
+    background-color:black;
+    height: 16vh;
+    border-bottom: 1px solid white;
+    z-index: 2;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color:rgb(184, 183, 183);
+    font-size: 20px;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:white;
+}
+/* Menu */
+#menu{
+    margin-top:21vh;
+}
+#menu .card{
+    background:black;
+    color: white;
+    border: 1px solid white;
+}
+#menu img{
+    height: 40vh;
+    border-bottom: 1px solid white;
+    
+}
+/* Galeria */
+#galeria{
+    border: 1px solid white;
+}
+.carousel-inner img{
+    height: 90vh;
+}
+
+/* Footer */
+footer{
+    margin-top: 4vh;
+    color:white;
+    text-align: left;
+    border-top:1px solid white;
+
+}
+@media only screen and (max-width:800px){
+    .carousel-inner img{
+        height: 46vh;
+    }
+}
 @media only screen and (max-width:700px){
     #navbarSupportedContent{
         background:black;
@@ -36,51 +84,20 @@ h5{
         margin-bottom: 1vh;
     }
 }
-.navbar{
-    background-color:black;
-    height: 16vh;
-    border-bottom: 1px solid white;
-    z-index: 2;
-}
-.navbar-dark .navbar-nav .nav-link{
-    color:rgb(184, 183, 183);
-    font-size: 20px;
-}
-.navbar-dark .navbar-nav .nav-link:hover{
-    color:white;
-}
-
-/* Galeria */
-#galeria{
-    border: 1px solid white;
-}
-.carousel-inner img{
-    height: 100vh;
-}
-@media only screen and (max-width:800px){
+@media only screen and (max-height:450px){
     .carousel-inner img{
-        height: 46vh;
+        height: 90vh;
     }
-}
-/* Menu */
-#menu{
-    margin-top:17vh;
-}
-#menu .card{
-    background:black;
-    color: white;
-    border: 1px solid white;
-}
-#menu img{
-    height: 40vh;
-    border-bottom: 1px solid white;
-    
-}
-
-/* Footer */
-footer{
-    margin-top: 4vh;
-    color:white;
-    text-align:left;
-    border-top:1px solid white;
+    .navbar #logo{
+        width: 90px;
+        height: 60px;
+    }
+    .navbar{
+        height: 75px;
+    }
+    #menu img{
+        height: 80vh;
+        border-bottom: 1px solid white;
+        
+    }
 }
