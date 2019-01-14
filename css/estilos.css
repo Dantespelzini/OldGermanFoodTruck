@@ -52,7 +52,12 @@ h5{
 .carousel-inner img{
     height: 90vh;
 }
-
+/* Quienes somos */
+iframe{
+    width: 81vw;
+    height: 105vh;
+    border: 1px solid white;
+}
 /* Footer */
 footer{
     margin-top: 4vh;
