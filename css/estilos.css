@@ -6,9 +6,13 @@ body{
 h2{
     color: white;
     text-align: center;
-    text-decoration: underline;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+h5{
+    color: white;
+    margin-left:9vw;
+    margin-top:2vh;
 }
 /* Navbar */
 .navbar #logo{
@@ -24,6 +28,12 @@ h2{
     }
     .navbar #logo{
         width: 140px;
+    }
+    h5{
+        margin: 4vw;
+    }
+    .card{
+        margin-bottom: 1vh;
     }
 }
 .navbar{
@@ -61,8 +71,9 @@ h2{
     border: 1px solid white;
 }
 #menu img{
-    height: 300px;
+    height: 40vh;
     border-bottom: 1px solid white;
+    
 }
 
 /* Footer */
