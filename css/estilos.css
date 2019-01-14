@@ -53,6 +53,9 @@ h5{
     height: 90vh;
 }
 /* Quienes somos */
+iframe{
+    width: 90vw;
+}
 /* Footer */
 footer{
     margin-top: 4vh;
