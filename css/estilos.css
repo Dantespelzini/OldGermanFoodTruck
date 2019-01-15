@@ -53,8 +53,10 @@ h5{
     height: 90vh;
 }
 /* Quienes somos */
-iframe{
-    width: 90vw;
+#video{
+    height: 90vh;
+    
+    border: 1px solid white;
 }
 /* Footer */
 footer{
@@ -66,7 +68,7 @@ footer{
 }
 @media only screen and (max-width:800px){
     .carousel-inner img{
-        height: 46vh;
+        height: 41vh;
     }
 }
 @media only screen and (max-width:700px){
