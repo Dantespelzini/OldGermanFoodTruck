@@ -1,4 +1,7 @@
 /* All */
+html {
+    scroll-behavior: smooth;
+  }
 body{
     background-color:black;
     font-family: 'Exo 2', sans-serif;
@@ -25,7 +28,6 @@ h5{
     background-color:black;
     height: 16vh;
     border-bottom: 1px solid white;
-    z-index: 2;
 }
 .navbar-dark .navbar-nav .nav-link{
     color:rgb(184, 183, 183);
