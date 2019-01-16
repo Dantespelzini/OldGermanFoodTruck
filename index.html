@@ -160,7 +160,7 @@
         </div>
       </div>
     </div>
-
+<a href="https://www.google.com/maps/place/{{location}}" target="_blank"></a>
     <footer id="footer">
         <div class="container">
             <div class="row">
@@ -195,9 +195,9 @@
             limit: '3',
             template:'<div class="col-sm-12 col-md-4">'+
                   '<div class="card">'+
-                    '<a href="{{link}}" target="_blank"><img src="{{image}}" class="card-img-top" alt="instagramfoto"></a>'+
+                    '<img src="{{image}}" class="card-img-top" alt="instagramfoto">'+
                   '<div class="card-body">'+
-                  '<p class="card-text">{{caption}}</p>'+
+                  '<p class="card-text">{{caption}}</p><p style=""><a href="https://www.google.com/maps/place/{{location}}" target="_blank"><i class="fas fa-map-marker-alt"></i> Ubicacion del evento</a><a class="nav-link" href="{{link}}" target=”_blank”> <i class="fab fa-instagram"></i> Continuar leyendo</a></p>'+
                   '</div>'+
               '</div>'+
               '</div>',
