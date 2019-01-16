@@ -36,7 +36,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="#menu">Menu</a>
+                  <a class="nav-link" href="#menuu">Menu</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#prox">Proximos Eventos<span class="sr-only">(current)</span></a>
@@ -58,6 +58,7 @@
     </header>
 
     <!-- Menu -->
+    <div class="anchor" id="menuu"></div>
     <div class="container" id="menu">
     <h2><i class="fas fa-utensils"></i> MENU</h2>
       <div class="row">
@@ -93,13 +94,15 @@
     <h5>*Todos los Sandwiches vienen con papas fritas rusticas.</h5>
 
     <!-- Proximos eventos -->
-    <h2 id="prox"><i class="far fa-calendar-alt"></i> PROXIMOS EVENTOS</h2>
+    <div class="anchor" id="prox"></div>
+    <h2><i class="far fa-calendar-alt"></i> PROXIMOS EVENTOS</h2>
     <div class="container">
       <div class="row" id="instafeed">
       </div>
     </div>
     <!-- Quienes somos -->
-    <div class="container" id="quienes">
+    <div class="anchor" id="quienes"></div>
+    <div class="container">
       <h2><i class="fas fa-users"></i> QUIENES SOMOS</h2>
       <div class="row-12">
         <div class="embed-responsive embed-responsive-16by9">
@@ -109,7 +112,8 @@
     </div>
     <h5>*Video de Mercedes Benz Argentina</h5>
     <!-- Galeria -->
-    <div class="container" id="galeriaa">
+    <div class="anchor" id="galeriaa"></div>
+    <div class="container">
     <h2><i class="fas fa-camera-retro"></i> GALERIA</h2>
       <div class="row-12" id="galeria">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -197,21 +201,21 @@
                   '<div class="card">'+
                     '<img src="{{image}}" class="card-img-top" alt="instagramfoto">'+
                   '<div class="card-body">'+
-                  '<p class="card-text">{{caption}}</p><p style=""><a href="https://www.google.com/maps/place/{{location}}" target="_blank"><i class="fas fa-map-marker-alt"></i> Ubicacion del evento</a><a class="nav-link" href="{{link}}" target=”_blank”> <i class="fab fa-instagram"></i> Continuar leyendo</a></p>'+
+                  '<p class="card-text">{{caption}}</p><a href="https://www.google.com/maps/place/{{location}}" target="_blank"><i class="fas fa-map-marker-alt"></i> Ubicacion del evento</a><a class="nav-link" href="{{link}}" target=”_blank”> <i class="fab fa-instagram"></i> Continuar leyendo</a>'+
                   '</div>'+
               '</div>'+
               '</div>',
               
-            // filter: function(image) {
-            //   return image.tags.indexOf('vscocam') >= 0;
-            // },
-            // after: function () {
-            //   $('.instagram-image').each(function(i){
-            //   if (i>=6){
-            //     $(this).remove();
-            //   }
-            // });
-            // }
+          //   filter: function(image) {
+          //     return image.tags.indexOf('proxevento') >= 0;
+          //   },
+          //   after: function () {
+          //     $('.instagram-image').each(function(i){
+          //     if (i>=6){
+          //       $(this).remove();
+          //     }
+          //   });
+          //  }
         });
         feed.run();
  
