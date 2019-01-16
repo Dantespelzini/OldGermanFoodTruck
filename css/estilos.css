@@ -36,6 +36,9 @@ h5{
 .navbar-dark .navbar-nav .nav-link:hover{
     color:white;
 }
+#instafeed img{
+color: white;
+}
 /* Menu */
 #menu{
     margin-top:21vh;
@@ -62,6 +65,12 @@ h5{
     height: 90vh;
     
     border: 1px solid white;
+}
+/* Proximos eventos */
+#instafeed .card .card-body{
+    background: black;
+    border: 1px solid white;
+    color:white;
 }
 /* Footer */
 footer{

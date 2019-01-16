@@ -94,7 +94,10 @@
 
     <!-- Proximos eventos -->
     <h2 id="prox"><i class="far fa-calendar-alt"></i> PROXIMOS EVENTOS</h2>
-
+    <div class="container">
+      <div class="row" id="instafeed">
+      </div>
+    </div>
     <!-- Quienes somos -->
     <div class="container" id="quienes">
       <h2><i class="fas fa-users"></i> QUIENES SOMOS</h2>
@@ -166,20 +169,55 @@
                   <h4>Contacto</h2>
                     <p>
                     <i class="fa fa-phone-square"></i>
-                    Telefono
+                    Telefono: 11-3406-4599 
                     </p>
                     <p>
                       <i class="far fa-envelope"></i>
-                      Mail
+                      Mail : infooldgermanfoodtruck@gmail.com
                     </p>
                     <h6><i class="fas fa-user-secret"></i> Web realizada y organizada por Dante Spelzini.</h6>
                 </div>
                 <div class="col-sm-0 col-md-4"></div>
             </div>
         </div>
-    </footer>
+    </footer><a href=""></a>
 
     <!-- JavaScript -->
+    <script type="text/javascript" src="js/instafeed.min.js"></script>
+
+    <script type="text/javascript">
+              var feed = new Instafeed({
+            get: 'user',
+            userId: '2228638539',
+            clientId:'3f438901cee642559bc2c90ed78c841e',
+            accessToken: '2228638539.1677ed0.1adc30d3092c4c4f8b743c7872885cdf',
+            resolution: 'low_resolution',
+            limit: '3',
+            template:'<div class="col-sm-12 col-md-4">'+
+                  '<div class="card">'+
+                    '<a href="{{link}}" target="_blank"><img src="{{image}}" class="card-img-top" alt="instagramfoto"></a>'+
+                  '<div class="card-body">'+
+                  '<p class="card-text">{{caption}}</p>'+
+                  '</div>'+
+              '</div>'+
+              '</div>',
+              
+            // filter: function(image) {
+            //   return image.tags.indexOf('vscocam') >= 0;
+            // },
+            // after: function () {
+            //   $('.instagram-image').each(function(i){
+            //   if (i>=6){
+            //     $(this).remove();
+            //   }
+            // });
+            // }
+        });
+        feed.run();
+ 
+     </script>
+ 
+    
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
