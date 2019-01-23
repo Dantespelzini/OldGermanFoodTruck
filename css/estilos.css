@@ -5,6 +5,12 @@ body{
     font-size: 16px;
     font-weight: 500;
 }
+.anchor {
+    position: relative;
+    top: -120px;
+    visibility: hidden;
+    z-index: -2;
+}
 h2{
     color: white;
     text-align: center;
@@ -23,7 +29,6 @@ h5{
 }
 .navbar{
     background-color:black;
-    height: 16vh;
     border-bottom: 1px solid white;
 }
 .navbar-dark .navbar-nav .nav-link{
@@ -38,7 +43,7 @@ color: white;
 }
 /* Menu */
 #menu{
-    margin-top:22vh;
+    margin-top:14vh;
 }
 #menu .card{
     background:black;
@@ -55,7 +60,8 @@ color: white;
     border: 1px solid white;
 }
 .carousel-inner img{
-    height: 90vh;
+    height: 80vh;
+    width:auto;
 }
 /* Quienes somos */
 #video{
@@ -79,6 +85,17 @@ footer{
 }
 .card-body{
     text-align: center;
+}
+@media only screen and (max-width:1350px){
+    .carousel-inner img{
+        height: 60vh;
+    }
+}
+@media only screen and (max-width:1199px){
+    #menu img{
+        height: 35vh;
+        border-bottom: 1px solid white;
+    }
 }
 @media only screen and (max-width:800px){
     .carousel-inner img{
@@ -109,16 +126,25 @@ footer{
         margin-bottom: 1vh;
     }
 }
-@media only screen and (max-height:450px){
+@media only screen and (min-width:730px){
+    @media only screen and (max-height:1350px){
+        #menu img{
+            height: 21vh;
+            border-bottom: 1px solid white;
+        }
+    }
+}
+@media only screen and (max-height:650px){
     .carousel-inner img{
         height: 90vh;
+        width: auto;
     }
     .navbar #logo{
-        width: 90px;
-        height: 60px;
+        width: 150px;
+        height: 90px;
     }
     .navbar{
-        height: 75px;
+        height: 94px;
     }
     #menu img{
         height: 80vh;
