@@ -129,7 +129,7 @@ footer{
 @media only screen and (min-width:730px){
     @media only screen and (max-height:1350px){
         #menu img{
-            height: 21vh;
+            height: 19vh;
             border-bottom: 1px solid white;
         }
     }
