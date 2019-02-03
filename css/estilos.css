@@ -43,7 +43,7 @@ color: white;
 }
 /* Menu */
 #menu{
-    margin-top:14vh;
+    margin-top:110px;
 }
 #menu .card{
     background:black;
@@ -141,13 +141,13 @@ footer{
     }
     .navbar #logo{
         width: 150px;
-        height: 90px;
+        height: 85px;
     }
     .navbar{
-        height: 94px;
+        height: 103px;
     }
     #menu img{
-        height: 80vh;
+        height: 55vh;
         border-bottom: 1px solid white;
         
     }
