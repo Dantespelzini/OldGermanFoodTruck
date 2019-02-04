@@ -136,7 +136,7 @@ footer{
 }
 @media only screen and (max-height:650px){
     .carousel-inner img{
-        height: 90vh;
+        height: 86vh;
         width: auto;
     }
     .navbar #logo{
@@ -150,5 +150,11 @@ footer{
         height: 60vh;
         border-bottom: 1px solid white;
         
+    }
+    @media only screen and (max-width:770px){
+        .carousel-inner img{
+            height: 50vh;
+            width: auto;
+        }
     }
 }
